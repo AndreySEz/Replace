@@ -1,0 +1,17 @@
+﻿<Window x:Class="Replace.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Replace"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="224.39" Width="800">
+    <Grid>
+        <StackPanel Margin="5">
+            <Label FontSize="28">Слово:</Label>
+            <TextBox x:Name="txtBoxWord" Height="40"></TextBox>
+            <Button Height="35" Content="Ввести" Click="btn_Click"/>
+            <Label x:Name="btn" FontSize="28">Результат: </Label>
+        </StackPanel>
+    </Grid>
+</Window>
